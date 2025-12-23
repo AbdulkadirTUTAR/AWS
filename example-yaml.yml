@@ -1,0 +1,31 @@
+# First yaml comment
+key: value
+
+# Single instructor
+instructor: Kadir
+
+# List of strings
+names:
+  - Kadir
+  - osvaldo
+  - paul
+
+# Same list in flow style
+names_inline: [Kadir, osvaldo, paul]
+
+# Instructor list (simple)
+instructors_simple:
+  - Kadir
+  - osvaldo
+  - paul
+
+# Employee records
+instructors:
+  - name: Kadir
+    job: solutions-arch
+    department: aws
+    age: 32
+
+  - name: osvaldo
+    job: solutions-arch
+    department: aws
